@@ -3,7 +3,7 @@ import os
 import sys
 import time
 import spamwatch
-from GroupMenter import config
+from GroupMenter import sample_config.py
 
 import telegram.ext as tg
 from pyrogram import Client, errors
