@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
+    API_ID = 27957041  # integer value, dont use ""
+    API_HASH = "2ae1c9912cd2efdecae7f0208994f0b0"
+    TOKEN = "6041305578:AAHifZOeb5UURh-X8APKhBVWCidv8aZvI_A"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 655594746  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "soupboy_single"
     SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1001600523208
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1001600523208
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "mongodb+srv://Testingbots01:TESTING1122334455@cluster001.exchcbz.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
