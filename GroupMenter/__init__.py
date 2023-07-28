@@ -103,7 +103,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from GroupMenter.config import Development as sample_config
+    from GroupMentersample.config import Development as sample_config
 
     TOKEN = Config.TOKEN
 
