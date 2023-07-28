@@ -3,7 +3,7 @@ import os
 import sys
 import time
 import spamwatch
-from GroupMenter import sample_config
+from GroupMenter import config
 
 import telegram.ext as tg
 from pyrogram import Client, errors
@@ -103,7 +103,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from GroupMentersample.config import Development as sample_config
+    from GroupMentersample.config import Development as config
 
     TOKEN = Config.TOKEN
 
