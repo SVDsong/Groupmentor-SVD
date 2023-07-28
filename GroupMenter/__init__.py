@@ -105,7 +105,7 @@ if ENV:
 else:
     from GroupMenter.config import Development as config
 
-    TOKEN = Config.TOKEN
+    TOKEN = config.TOKEN
 
     try:
         OWNER_ID = int(Config.OWNER_ID)
